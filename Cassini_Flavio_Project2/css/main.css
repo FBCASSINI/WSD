@@ -34,7 +34,6 @@ div.transbox {
     background-color: #ffffff;
     border: 1px solid #000000;
     opacity: .6;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
     font-style: italic;
 
 }
