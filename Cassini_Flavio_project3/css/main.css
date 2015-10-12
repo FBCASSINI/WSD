@@ -22,11 +22,11 @@ h1 {
 
 }
 /* Navigation */
-nav .nav {
-    display: inline-block;
-    margin-right: 0px;
-    margin-left: 250px;
+nav.nav1,li.nav1 {
+    display: inline;
+    text-align: center;
     text-shadow: -1px -1px #000000;
+    margin: 10px;
 }
 /* transparent box */
 div.transbox {
