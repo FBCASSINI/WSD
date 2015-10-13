@@ -5,6 +5,7 @@ body {
 /* box model */
 #wrapper {
     width: 1000px;
+    height: 5000px;
     padding: 25px;
     border: 4px  solid #ffffff;
     margin: 30px auto 30px auto;
@@ -29,12 +30,15 @@ nav.nav1,li.nav1 {
     margin: 10px;
 }
 /* transparent box */
-div.transbox {
+aside.sidebox {
+    width: 375px;
+    padding: 8px;
     margin: 30px;
     background-color: #ffffff;
     border: 1px solid #000000;
     opacity: .6;
     font-style: italic;
+    float: right;
 
 }
 /* paragraph style */
@@ -73,4 +77,9 @@ a:active {
 /* upper roman numerals */
 ol.c {
     list-style-type: upper-roman;
+}
+
+section.section1 {
+    float: left;
+    width: 500px;
 }
