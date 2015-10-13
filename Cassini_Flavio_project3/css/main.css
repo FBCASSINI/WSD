@@ -4,8 +4,8 @@ body {
 }
 /* box model */
 #wrapper {
-    width: 1000px;
-    height: 5000px;
+    width: 1250px;
+    height: 4200px;
     padding: 25px;
     border: 4px  solid #ffffff;
     margin: 30px auto 30px auto;
@@ -81,5 +81,5 @@ ol.c {
 
 section.section1 {
     float: left;
-    width: 500px;
+    width: 700px;
 }
