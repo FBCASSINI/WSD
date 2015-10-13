@@ -83,3 +83,15 @@ section.section1 {
     float: left;
     width: 700px;
 }
+
+figure.img {
+    width: 375px;
+    padding: 8px;
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    opacity: .6;
+    font-style: italic;
+    float: right;
+
+}
