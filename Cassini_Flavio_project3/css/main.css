@@ -5,10 +5,10 @@ body {
 /* box model */
 #wrapper {
     width: 1250px;
-    height: 4200px;
+    height: 3000px;
     padding: 25px;
     border: 4px  solid #ffffff;
-    margin: 30px auto 30px auto;
+    margin: 30px auto 0 auto;
     background-color: #b0c5de;
     border-radius: 25px;
     box-shadow: 5px -5px 5px -5px #000000
@@ -33,12 +33,20 @@ nav.nav1,li.nav1 {
 aside.sidebox {
     width: 375px;
     padding: 8px;
-    margin: 2225px 0;
+    margin: 1800px 0 0 0;
     background-color: #ffffff;
     border: 1px solid #000000;
     opacity: .6;
     font-style: italic;
     float: right;
+    background: #e4f5fc;
+    background: -moz-linear-gradient(top, #e4f5fc 0%, #9fd8ef 13%, #bfe8f9 63%, #2ab0ed 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4f5fc), color-stop(13%,#9fd8ef), color-stop(63%,#bfe8f9), color-stop(100%,#2ab0ed));
+    background: -webkit-linear-gradient(top, #e4f5fc 0%,#9fd8ef 13%,#bfe8f9 63%,#2ab0ed 100%);
+    background: -o-linear-gradient(top, #e4f5fc 0%,#9fd8ef 13%,#bfe8f9 63%,#2ab0ed 100%);
+    background: -ms-linear-gradient(top, #e4f5fc 0%,#9fd8ef 13%,#bfe8f9 63%,#2ab0ed 100%);
+    background: linear-gradient(to bottom, #e4f5fc 0%,#9fd8ef 13%,#bfe8f9 63%,#2ab0ed 100%);
+
 
 }
 /* paragraph style */
@@ -52,7 +60,9 @@ p {
 /* header2 style */
 h2 {
     font-size: 200%;
-    font-weight: normal
+    font-weight: normal;
+    text-align: center;
+
 }
 
 /* unvisited link */
@@ -86,14 +96,21 @@ section.section1 {
 
 div.img {
     width: 375px;
-    height: 900px;
+    height: 500px;
     padding: 8px;
-    background-color: #ffffff;
     border: 1px solid #000000;
     font-style: italic;
     float: right;
+    background: #e4f5fc;
+    background: -moz-linear-gradient(top, #e4f5fc 0%, #9fd8ef 13%, #bfe8f9 63%, #2ab0ed 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4f5fc), color-stop(13%,#9fd8ef), color-stop(63%,#bfe8f9), color-stop(100%,#2ab0ed));
+    background: -webkit-linear-gradient(top, #e4f5fc 0%,#9fd8ef 13%,#bfe8f9 63%,#2ab0ed 100%);
+    background: -o-linear-gradient(top, #e4f5fc 0%,#9fd8ef 13%,#bfe8f9 63%,#2ab0ed 100%);
+    background: -ms-linear-gradient(top, #e4f5fc 0%,#9fd8ef 13%,#bfe8f9 63%,#2ab0ed 100%);
+    background: linear-gradient(to bottom, #e4f5fc 0%,#9fd8ef 13%,#bfe8f9 63%,#2ab0ed 100%);
 
 }
+
 
 img.center {
     display: block;
