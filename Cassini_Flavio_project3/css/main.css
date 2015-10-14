@@ -1,23 +1,26 @@
 /* backround of page */
 body {
     background-image: url("../images/dark-spade.png");
+    height: 100%;
+    width: 100%
 }
 /* box model */
 #wrapper {
-    width: 1250px;
-    height: 1500px;
+    width: 93%;
+    height: 93%;
     padding: 25px;
     border: 4px  solid #ffffff;
     margin: 30px auto 0 auto;
     background-color: #b0c5de;
     border-radius: 25px;
-    box-shadow: 5px -5px 5px -5px #000000
+    box-shadow: -1px -1px 0 -1px #000000;
+    overflow: auto;
 }
 /* header style */
 h1 {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    font-size: 250%;
+    font-size: 2.5em;
     font-weight: normal;
     text-shadow: 2px 2px #000000;
 
@@ -31,7 +34,8 @@ nav.nav1,li.nav1 {
 }
 /* transparent box */
 aside.sidebox {
-    width: 375px;
+    width: 33%;
+    height: 40%;
     padding: 8px;
     margin: 500px 0 0 0;
     background-color: #ffffff;
@@ -52,14 +56,14 @@ aside.sidebox {
 /* paragraph style */
 p {
     font-family: "Times New Roman", Georgia, Serif;
-    font-size: 0.625em;
+    font-size: .625em;
     font-weight: bold;
     line-height: 200%;
     text-indent: 50px;
 }
 /* header2 style */
 h2 {
-    font-size: 200%;
+    font-size: 1.5em;
     font-weight: normal;
     text-align: center;
 }
@@ -90,11 +94,11 @@ ol.c {
 
 section.section1 {
     float: left;
-    width: 700px;
+    width: 63%;
 }
 
 div.img {
-    width: 375px;
+    width: 33%;
     height: 500px;
     padding: 8px;
     border: 1px solid #000000;
@@ -116,4 +120,12 @@ img.center {
     margin-left: auto;
     margin-right: auto;
     padding: 50px 0;
+}
+
+h2.ball {
+    background-image: url("../images/ball.png");
+    background-repeat: no-repeat;
+    height: 58px;
+    padding: 8px 0 0 60px;
+
 }
