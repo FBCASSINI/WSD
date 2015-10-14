@@ -32,13 +32,12 @@ nav.nav1,li.nav1 {
     text-shadow: -1px -1px #000000;
     margin: 10px;
 }
-/* transparent box */
+/* box model float right with gradint "world cup wins"*/
 aside.sidebox {
     width: 33%;
     height: 40%;
     padding: 8px;
     margin: 470px 0 0 0;
-    background-color: #ffffff;
     border: 1px solid #000000;
     opacity: .6;
     font-style: italic;
@@ -91,12 +90,12 @@ a:active {
 ol.c {
     list-style-type: upper-roman;
 }
-
+/* floating paragraph section left */
 section.section1 {
     float: left;
     width: 63%;
 }
-
+/* box model float right and gradient gallery*/
 div.img {
     width: 33%;
     height: 493px;
@@ -114,7 +113,7 @@ div.img {
 
 }
 
-
+/* centering the gallary image*/
 img.center {
     display: block;
     margin-left: auto;
@@ -122,6 +121,7 @@ img.center {
     padding: 50px 0;
 }
 
+/* soccer ball image */
 h2.ball {
     background-image: url("../images/ball.png");
     background-repeat: no-repeat;
