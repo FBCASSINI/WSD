@@ -131,13 +131,19 @@ h2.ball {
 }
 
 
-#tabid{
+#tabid {
     width: 33%;
     height: 40%;
     border: 1px solid #000000;
     padding: 8px;
-
+    font-size: .850em;
+    text-align: center;
+    border-spacing: 5px;
 }
+th {
+    text-transform: uppercase;
+}
+
 
 tr:nth-child(odd)  /* same */
 {
