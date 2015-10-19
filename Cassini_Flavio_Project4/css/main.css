@@ -1,0 +1,131 @@
+/* backround of page */
+body {
+    background-image: url("../images/dark-spade.png");
+    height: 100%;
+    width: 100%
+}
+/* box model */
+#wrapper {
+    width: 90%;
+    height: 93%;
+    padding: 25px;
+    border: 4px  solid #ffffff;
+    margin: 30px auto 0 auto;
+    background-color: #b0c5de;
+    border-radius: 25px;
+    box-shadow: -1px -1px 0 -1px #000000;
+    overflow: auto;
+}
+/* header style */
+h1 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    text-shadow: 2px 2px #000000;
+
+}
+/* Navigation */
+nav.nav1,li.nav1 {
+    display: inline;
+    text-align: center;
+    text-shadow: -1px -1px #000000;
+    margin: 10px;
+}
+/* box model float right with gradint "world cup wins"*/
+aside.sidebox {
+    width: 33%;
+    height: 40%;
+    padding: 8px;
+    margin: 470px 0 0 0;
+    border: 1px solid #000000;
+    opacity: .6;
+    font-style: italic;
+    float: right;
+    background: #e4f5fc;
+    background: -moz-linear-gradient(top, #e4f5fc 0%, #9fd8ef 13%, #bfe8f9 63%, #2ab0ed 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4f5fc), color-stop(13%,#9fd8ef), color-stop(63%,#bfe8f9), color-stop(100%,#2ab0ed));
+    background: -webkit-linear-gradient(top, #e4f5fc 0%,#9fd8ef 13%,#bfe8f9 63%,#2ab0ed 100%);
+    background: -o-linear-gradient(top, #e4f5fc 0%,#9fd8ef 13%,#bfe8f9 63%,#2ab0ed 100%);
+    background: -ms-linear-gradient(top, #e4f5fc 0%,#9fd8ef 13%,#bfe8f9 63%,#2ab0ed 100%);
+    background: linear-gradient(to bottom, #e4f5fc 0%,#9fd8ef 13%,#bfe8f9 63%,#2ab0ed 100%);
+
+
+}
+/* paragraph style */
+p {
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: .625em;
+    font-weight: bold;
+    line-height: 200%;
+    text-indent: 50px;
+}
+/* header2 style */
+h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+}
+
+/* unvisited link */
+a:link {
+    color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
+/* upper roman numerals */
+ol.c {
+    list-style-type: upper-roman;
+}
+/* floating paragraph section left */
+section.section1 {
+    float: left;
+    width: 63%;
+}
+/* box model float right and gradient gallery*/
+div.img {
+    width: 33%;
+    height: 493px;
+    padding: 8px;
+    border: 1px solid #000000;
+    font-style: italic;
+    float: right;
+    background: #e4f5fc;
+    background: -moz-linear-gradient(top, #e4f5fc 0%, #9fd8ef 13%, #bfe8f9 63%, #2ab0ed 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4f5fc), color-stop(13%,#9fd8ef), color-stop(63%,#bfe8f9), color-stop(100%,#2ab0ed));
+    background: -webkit-linear-gradient(top, #e4f5fc 0%,#9fd8ef 13%,#bfe8f9 63%,#2ab0ed 100%);
+    background: -o-linear-gradient(top, #e4f5fc 0%,#9fd8ef 13%,#bfe8f9 63%,#2ab0ed 100%);
+    background: -ms-linear-gradient(top, #e4f5fc 0%,#9fd8ef 13%,#bfe8f9 63%,#2ab0ed 100%);
+    background: linear-gradient(to bottom, #e4f5fc 0%,#9fd8ef 13%,#bfe8f9 63%,#2ab0ed 100%);
+
+}
+
+/* centering the gallary image*/
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0;
+}
+
+/* soccer ball image */
+h2.ball {
+    background-image: url("../images/ball.png");
+    background-repeat: no-repeat;
+    height: 58px;
+    padding: 8px 0 0 60px;
+
+}
