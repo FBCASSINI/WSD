@@ -129,3 +129,25 @@ h2.ball {
     padding: 8px 0 0 60px;
 
 }
+
+
+#tabid{
+    width: 33%;
+    height: 40%;
+    border: 1px solid #000000;
+    padding: 8px;
+
+}
+
+tr:nth-child(odd)  /* same */
+{
+    background-color: #CCFFFF;
+}
+
+tr:nth-child(even) /* same */ {
+    background-color: #99FFFF;
+}
+
+tr:hover {
+    background-color: yellow;
+}
