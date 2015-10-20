@@ -157,3 +157,13 @@ tr:nth-child(even) /* same */ {
 tr:hover {
     background-color: yellow;
 }
+
+footer {
+    clear: both;
+}
+
+form.contact{
+    float: left;
+    margin: 0 0 10px 10px;
+
+}
