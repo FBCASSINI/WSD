@@ -139,6 +139,8 @@ h2.ball {
     font-size: .850em;
     text-align: center;
     border-spacing: 5px;
+    clear: both;
+
 }
 th {
     text-transform: uppercase;
@@ -162,14 +164,38 @@ footer {
     clear: both;
 }
 
-div.contact{
+div.contact {
     float: left;
-    margin: 0px 0px 10px 10px;
+    margin: 30px auto 0px auto;
+    padding: 1px 1px 1px 1px;
+    font-size: .850em;
+    background-color: #E8E8E8;
+    border: 1px solid #000000;
+    text-align: center;
     clear: both;
-    overflow: auto
-
+    overflow: auto;
+    height: 30%;
+    width: 30%;
+    color: #0000FF;
 }
 
+div.name:hover {
+background-color: #CCFFFF;
+}
+
+div.email:hover {
+    background-color: #CCFFFF;
+}
+
+div.textarea1:hover {
+    background-color: #CCFFFF;
+}
+
+input:focus {
+    background-color: yellow;
+}
+
+
 h2.headform {
-    text-align: left;
+    text-align: center;
 }
