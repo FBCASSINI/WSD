@@ -130,7 +130,7 @@ h2.ball {
 
 }
 
-
+/* table goals scored*/
 #tabid {
     width: 33%;
     height: 40%;
@@ -142,28 +142,33 @@ h2.ball {
     clear: both;
 
 }
+/* uppercase table header */
 th {
     text-transform: uppercase;
 }
 
-
+/* table row color odd */
 tr:nth-child(odd)  /* same */
 {
     background-color: #CCFFFF;
 }
 
+/* table row color even */
 tr:nth-child(even) /* same */ {
     background-color: #99FFFF;
 }
 
+/* table row color hover */
 tr:hover {
     background-color: yellow;
 }
 
+/* footer */
 footer {
     clear: both;
 }
 
+/* contact form */
 div.contact {
     float: left;
     margin: 30px auto 0px auto;
@@ -179,23 +184,27 @@ div.contact {
     color: #0000FF;
 }
 
+/* name color hover for contact form */
 div.name:hover {
 background-color: #CCFFFF;
 }
 
+/* email color hover for contact form */
 div.email:hover {
     background-color: #CCFFFF;
 }
 
+/* text area color hover for contact form */
 div.textarea1:hover {
     background-color: #CCFFFF;
 }
 
+/* focus color for contact form */
 input:focus {
     background-color: yellow;
 }
 
-
+/* center align header for contact form */
 h2.headform {
     text-align: center;
 }
